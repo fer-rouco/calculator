@@ -5,8 +5,6 @@ export class Button extends React.Component {
   constructor(props) {
     super(props);
 
-    this.keyDownHandler = this.keyDownHandler.bind(this);
-
     this.buttonRef = React.createRef();
   }
 
@@ -17,11 +15,6 @@ export class Button extends React.Component {
       this.buttonRef.current.style.height = this.props.height;
     }
   }
-
-  keyDownHandler(event) {
-    if (this.props.id === event.key.toUpperCase()) {
-    }
-  };
   
   render() {
      return (
