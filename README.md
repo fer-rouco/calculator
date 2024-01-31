@@ -2,7 +2,7 @@
 
 > App that allows you to do your arithmetic calculations
 
-Available live [here](https://fernet87.github.io/calculator/) 
+Available live [here](https://fer-rouco.github.io/calculator/) 
 
 ## About the Project
 
